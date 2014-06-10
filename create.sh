@@ -15,4 +15,5 @@ rm symbols/49* symbols/36.* symbols/67.*
 #cp special/insignia.png symbols/49.png
 cp special/insignia.svg symbols/49.svg
 #cp special/tux.png symbols/67.png
-cp special/tux.svg symbols/67.svg 
+#cp special/tux.svg symbols/67.svg 
+cp special/superman-inverted.svg symbols/67.svg
