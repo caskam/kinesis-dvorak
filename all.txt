@@ -1,68 +1,68 @@
--_
-=+
-1!
-2@
-4$
-5%
-6^
-7\\&
-9(
-0)
-⌂
-⇞
-'"
-,<
-.>
-P
-Y
-F
-G
-C
-R
-L
-3#
-8*
-⇥
-⇥
-⇧
-⇧
-\\\\|
-/?
-I
-D
-↘
-⇟
-⌫
-
-⌦
-↵
-;:
-Q
-J
-K
-X
-B
-M
-W
-V
-Z
-
-`~
-←
-→
-↑
-↓
-[{
-]}
-A
-O
-E
-U
-H
-T
-N
-S
-⎈
-⎇
-⌘
-⎈
+R1_Wide	-_
+R1_Wide	=+
+R1	1!
+R1	2@
+R1	4$
+R1	5%
+R1	6^
+R1	7&
+R1	9(
+R1	0)
+R1	⌂
+R1	⇞
+R2	'"
+R2	,<
+R2	.>
+R2	P
+R2	Y
+R2	F
+R2	G
+R2	C
+R2	R
+R2	L
+R2	3#
+R2	8*
+R3_Wide	⇥
+R3_Wide	⇥
+R3_Wide	⇧
+R3_Wide	⇧
+R3_Wide	\|
+R3_Wide	/?
+R3	I
+R3	D
+R3	↘
+R3	⇟
+R4/4_Tall_Left	⌫
+R4/4_Tall_Right	 
+R4_Tall_Left	⌦
+R4_Tall_Right	↵
+R4	;:
+R4	Q
+R4	J
+R4	K
+R4	X
+R4	B
+R4	M
+R4	W
+R4	V
+R4	Z
+R4	 
+R4	`~
+R4	←
+R4	→
+R4	↑
+R4	↓
+R4	[{
+R4	]}
+R3	A
+R3	O
+R3	E
+R3	U
+R3	H
+R3	T
+R3	N
+R3	S
+R5	⎈
+R5	⎇
+R5	⌘
+R5	⎈
