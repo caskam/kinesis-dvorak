@@ -11,6 +11,8 @@ This is a summary of what my layout looks like, in [DCS conventions](http://keyc
 
 ![Kinesis DVORAK layout](http://i752.photobucket.com/albums/xx162/fommil/kinesis-dvorak_zps7106bc5b.png)
 
+[Source](https://geekhack.org/index.php?PHPSESSID=ufjo1dfhkfh8jf5r6e8f80qqm1&topic=23446.msg878341#msg878341).
+
 The following is a heuristic conversion table. `~` means there is not an exact equivalent.
 
 | DCS     | WASD                                                                                                                     | Notes                                                                                                                                                                                                                                                           |

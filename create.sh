@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# all.txt contains a TAB separated list of KEY -> TEXT for each key in DCS naming convention.
-# TODO this file converts each line into an SVG file, normalising/centering to ???mm (should the size be in the list?)
+# all.txt contains a TAB separated list of KEY -> TEXT for each key in
+# KINESIS_DCS naming convention (i.e. the Kinesis QWERTY name and the
+# DCS keycap size).
+
+# TODO this script converts each line into an SVG file
 
 # TODO if all.txt has a full set using WASD naming conventions [1] (R4
 #      is top row) then opening wasd.svg will be your printing layout
