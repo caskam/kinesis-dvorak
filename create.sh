@@ -17,22 +17,17 @@
 # [2] http://support.wasdkeyboards.com/customer/portal/kb_article_attachments/54760/original.svg?1431647314
 # [3] http://support.wasdkeyboards.com/customer/portal/kb_article_attachments/56630/original.svg?1433981382
 
-cat all.txt | while IFS=$'\t' read A B ; do echo "'$A'='$B'" ; done
-
-N=1
-while read A ; do
- echo $N=$A
+cat all.txt | while IFS=$'\t' read N A ; do
  cat example.svg | sed "saSYMBOLa${A}a" > symbols/$N.svg
- # in more recent versions of inkscape, this can be done without a GUI
- inkscape --with-gui --verb EditSelectAll --verb ObjectToPath --verb FileSave --verb FileQuit symbols/$N.svg
-# convert -background transparent -density 150 symbols/$N.svg symbols/$N.png
- let N=$N+1
-done < all.txt
+ # older versions of inkscape need --with-gui
+ inkscape --without-gui --verb EditSelectAll --verb ObjectToPath --verb FileSave --verb FileQuit symbols/$N.svg
+ #convert -background transparent -density 150 symbols/$N.svg symbols/$N.png
+done
 #mogrify -trim +repage symbols/*.png
 
-rm symbols/49* symbols/36.* symbols/67.*
+#rm symbols/49* symbols/36.* symbols/67.*
 #cp special/insignia.png symbols/49.png
-cp special/insignia.svg symbols/49.svg
+#cp special/insignia.svg symbols/49.svg
 #cp special/tux.png symbols/67.png
 #cp special/tux.svg symbols/67.svg 
-cp special/superman-inverted.svg symbols/67.svg
+#cp special/superman-inverted.svg symbols/67.svg
