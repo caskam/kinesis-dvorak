@@ -74,7 +74,7 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ff00ff"
+     pagecolor="#000000"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageopacity="0.50196078"
@@ -3042,25 +3042,43 @@
      inkscape:groupmode="layer"
      id="kinesis"
      inkscape:label="Kinesis">
-    <!-- ~67.5 horizontal translation between each key (each being ~37x32) -->
-    <!--x="-900" y="-400" transform="rotate(180)"-->
-           <!-- transform="scale(-1,-1)" -->
-
+    <!-- ~67.5 horizontal translation between each key (each being ~32x37) -->
     <!-- rotation appears to happen *after* positioning, hence weird (x,y) -->
-    <image id="EQUALS_R1_Wide" x="-935" y="-452" transform="rotate(180)"
-           xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/EQUALS_R1_Wide.svg"/>
-    <image id="Q_R2" x="152.5" y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/Q_R2.svg"/>
-    <image id="W_R2" x="220"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/W_R2.svg"/>
-    <image id="E_R2" x="287"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/E_R2.svg"/>
-    <image id="R_R2" x="355"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/R_R2.svg"/>
-    <image id="T_R2" x="422.5" y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/T_R2.svg"/>
-    <image id="Y_R2" x="490"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/Y_R2.svg"/>
-    <image id="U_R2" x="557.5" y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/U_R2.svg"/>
-    <image id="I_R2" x="625"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/I_R2.svg"/>
-    <image id="O_R2" x="692.5" y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/O_R2.svg"/>
-    <image id="P_R2" x="760"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/P_R2.svg"/>    
-    <image id="MINUS_R1_Wide" x="-1019" y="-452" transform="rotate(180)"
-           xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/MINUS_R1_Wide.svg"/>
+    <image id="EQUALS_R1_Wide"          x="-935"   y="-452" xlink:href="./symbols/EQUALS_R1_Wide.svg" transform="rotate(180)"/>
+    <image id="1_R1"                    x="119"    y="146"  xlink:href="./symbols/1_R1.svg"/>
+    <image id="2_R1"                    x="186.5"  y="146"  xlink:href="./symbols/2_R1.svg"/>
+    <image id="3_R2"                    x="827.5"  y="213"  xlink:href="./symbols/3_R2.svg"/>    
+    <image id="4_R1"                    x="321.5"  y="146"  xlink:href="./symbols/4_R1.svg"/>
+    <image id="5_R1"                    x="389"    y="146"  xlink:href="./symbols/5_R1.svg"/>
+    <image id="6_R1"                    x="456.5"  y="146"  xlink:href="./symbols/6_R1.svg"/>
+    <image id="7_R1"                    x="524"    y="146"  xlink:href="./symbols/7_R1.svg"/>
+    <image id="8_R2"                    x="895"    y="213"  xlink:href="./symbols/8_R2.svg"/>    
+    <image id="9_R1"                    x="659"    y="146"  xlink:href="./symbols/9_R1.svg"/>
+    <image id="10_R1"                   x="726.5"  y="146"  xlink:href="./symbols/0_R1.svg"/>
+    <image id="MINUS_R1_Wide"           x="-1019"  y="-452" xlink:href="./symbols/MINUS_R1_Wide.svg" transform="rotate(180)"/>
 
+    <image id="Q_R2"                    x="152.5"  y="213"  xlink:href="./symbols/Q_R2.svg"/>
+    <image id="W_R2"                    x="220"    y="213"  xlink:href="./symbols/W_R2.svg"/>
+    <image id="E_R2"                    x="287"    y="213"  xlink:href="./symbols/E_R2.svg"/>
+    <image id="R_R2"                    x="355"    y="213"  xlink:href="./symbols/R_R2.svg"/>
+    <image id="T_R2"                    x="422.5"  y="213"  xlink:href="./symbols/T_R2.svg"/>
+    <image id="Y_R2"                    x="490"    y="213"  xlink:href="./symbols/Y_R2.svg"/>
+    <image id="U_R2"                    x="557.5"  y="213"  xlink:href="./symbols/U_R2.svg"/>
+    <image id="I_R2"                    x="625"    y="213"  xlink:href="./symbols/I_R2.svg"/>
+    <image id="O_R2"                    x="692.5"  y="213"  xlink:href="./symbols/O_R2.svg"/>
+    <image id="P_R2"                    x="760"    y="213"  xlink:href="./symbols/P_R2.svg"/>
+
+    <image id="A_R3_SPHERICAL"          x="169"    y="280"  xlink:href="./symbols/A_R3_SPHERICAL.svg"/>
+    <image id="S_R3_SPHERICAL"          x="236.5"  y="280"  xlink:href="./symbols/S_R3_SPHERICAL.svg"/>
+    <image id="D_R3_SPHERICAL"          x="304"    y="280"  xlink:href="./symbols/D_R3_SPHERICAL.svg"/>
+    <image id="F_R3_SPHERICAL_LINE"     x="371.5"  y="280"  xlink:href="./symbols/F_R3_SPHERICAL_LINE.svg"/>
+    <!-- <image id="A_R3"               x="169"  y="280"  xlink:href="./symbols/A_R3.svg"/> -->
+    <!-- <image id="A_R3"               x="169"  y="280"  xlink:href="./symbols/A_R3.svg"/> -->
+
+    <image id="J_R3_SPHERICAL_LINE"     x="574"    y="280"  xlink:href="./symbols/J_R3_SPHERICAL_LINE.svg"/>
+    <image id="K_R3_SPHERICAL"          x="641.5"  y="280"  xlink:href="./symbols/K_R3_SPHERICAL.svg"/>
+    <image id="L_R3_SPHERICAL"          x="709"    y="280"  xlink:href="./symbols/L_R3_SPHERICAL.svg"/>
+    <image id="SEMICOLON_R3_SPHERICAL"  x="776.5"  y="280"  xlink:href="./symbols/SEMICOLON_R3_SPHERICAL.svg"/>
+    
   </g>
 </svg>
