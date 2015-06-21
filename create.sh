@@ -14,8 +14,8 @@
 #      available, I'm using 105 so that I get an extra R1 1.25.
 
 # [1] http://support.wasdkeyboards.com/customer/portal/articles/1366948-keycap-compatibility
-# [2] http://support.wasdkeyboards.com/customer/portal/kb_article_attachments/54760/original.svg?1431647314
-# [3] http://support.wasdkeyboards.com/customer/portal/kb_article_attachments/56630/original.svg?1433981382
+# [2] http://support.wasdkeyboards.com/customer/portal/kb_article_attachments/54760/original.svg
+# [3] http://support.wasdkeyboards.com/customer/portal/kb_article_attachments/56630/original.svg
 
 cat all.txt | while IFS=$'\t' read N A ; do
  cat example.svg | sed "saSYMBOLa${A}a" > symbols/$N.svg
