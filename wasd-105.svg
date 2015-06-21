@@ -3042,7 +3042,13 @@
      inkscape:groupmode="layer"
      id="kinesis"
      inkscape:label="Kinesis">
-    <!-- ~67.5 pixels between each key (each being ~37x32) -->
+    <!-- ~67.5 horizontal translation between each key (each being ~37x32) -->
+    <!--x="-900" y="-400" transform="rotate(180)"-->
+           <!-- transform="scale(-1,-1)" -->
+
+    <!-- rotation appears to happen *after* positioning, hence weird (x,y) -->
+    <image id="EQUALS_R1_Wide" x="-935" y="-452" transform="rotate(180)"
+           xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/EQUALS_R1_Wide.svg"/>
     <image id="Q_R2" x="152.5" y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/Q_R2.svg"/>
     <image id="W_R2" x="220"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/W_R2.svg"/>
     <image id="E_R2" x="287"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/E_R2.svg"/>
@@ -3053,5 +3059,8 @@
     <image id="I_R2" x="625"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/I_R2.svg"/>
     <image id="O_R2" x="692.5" y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/O_R2.svg"/>
     <image id="P_R2" x="760"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/P_R2.svg"/>    
+    <image id="MINUS_R1_Wide" x="-1019" y="-452" transform="rotate(180)"
+           xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/MINUS_R1_Wide.svg"/>
+
   </g>
 </svg>
