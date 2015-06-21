@@ -74,14 +74,14 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#ff00ff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0.50196078"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.68091765"
-     inkscape:cx="975.23267"
-     inkscape:cy="191.61162"
+     inkscape:zoom="1.4919145"
+     inkscape:cx="419.39937"
+     inkscape:cy="282.39732"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -94,10 +94,10 @@
      inkscape:snap-global="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true"
+     inkscape:bbox-paths="false"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-bbox-midpoints="false"
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      inkscape:object-nodes="true"
@@ -3040,6 +3040,18 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Fommil" />
+     id="kinesis"
+     inkscape:label="Kinesis">
+    <!-- ~67.5 pixels between each key (each being ~37x32) -->
+    <image id="Q_R2" x="152.5" y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/Q_R2.svg"/>
+    <image id="W_R2" x="220"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/W_R2.svg"/>
+    <image id="E_R2" x="287"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/E_R2.svg"/>
+    <image id="R_R2" x="355"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/R_R2.svg"/>
+    <image id="T_R2" x="422.5" y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/T_R2.svg"/>
+    <image id="Y_R2" x="490"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/Y_R2.svg"/>
+    <image id="U_R2" x="557.5" y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/U_R2.svg"/>
+    <image id="I_R2" x="625"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/I_R2.svg"/>
+    <image id="O_R2" x="692.5" y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/O_R2.svg"/>
+    <image id="P_R2" x="760"   y="213" xlink:href="file:///home/fommil/Projects/kinesis-dvorak/symbols/P_R2.svg"/>    
+  </g>
 </svg>
