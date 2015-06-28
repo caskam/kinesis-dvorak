@@ -19,6 +19,8 @@
 # [3] http://support.wasdkeyboards.com/customer/portal/kb_article_attachments/56630/original.svg
 # [4] http://xahlee.info/comp/unicode_computing_symbols.html
 
+mkdir symbols 2>/dev/null
+
 cat all.txt | while IFS=$'\t' read N A ; do
  cat example.svg | sed "saSYMBOLa${A}a" > symbols/$N.svg
  # older versions of inkscape need --with-gui
@@ -35,3 +37,8 @@ done
 #cp special/superman-inverted.svg symbols/67.svg
 
 cp special/superman-inverted.svg symbols/WIN_R5.svg 
+
+for SVG in symbols/*.svg ; do
+    PDF="`echo $SVG | sed 's/.svg/.pdf/'`"
+    inkscape "$SVG" --export-pdf="$PDF"
+done
