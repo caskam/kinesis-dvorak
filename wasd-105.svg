@@ -2786,7 +2786,7 @@
 
   <g
      inkscape:groupmode="layer"
-     id="kinesis-overflow"
+     id="kinesis-spares"
      inkscape:label="Kinesis Spares (Printed, but not needed)">
 
     <!-- We have a bunch of unused slots on the layout that we can use for spares -->
