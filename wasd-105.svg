@@ -3133,7 +3133,8 @@
   <g
      inkscape:groupmode="layer"
      id="kinesis-overflow"
-     inkscape:label="Kinesis Overflow">
+     inkscape:label="Kinesis Overflow"
+     style="display:none">
 
     <!-- No room for ENTER / SPACE, must use separate layout / custom key printing -->
     <g transform="rotate(90)">

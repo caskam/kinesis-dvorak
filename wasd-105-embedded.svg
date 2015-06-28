@@ -1110,7 +1110,7 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
     </g>
   </g>
 
-  <g inkscape:groupmode="layer" id="kinesis-overflow" inkscape:label="Kinesis Overflow">
+  <g inkscape:groupmode="layer" id="kinesis-overflow" inkscape:label="Kinesis Overflow" style="display:none">
 
     <!-- No room for ENTER / SPACE, must use separate layout / custom key printing -->
     <g transform="rotate(90)">
