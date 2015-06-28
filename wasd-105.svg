@@ -3133,7 +3133,34 @@
   <g
      inkscape:groupmode="layer"
      id="kinesis-overflow"
-     inkscape:label="Kinesis Overflow"
+     inkscape:label="Kinesis Spares (Printed, but not needed)">
+
+    <!-- We have a bunch of unused slots on the layout that we can use for spares -->
+    <svg  x="186.5" y="48" > <xi:include href="./symbols/ALT_R5.svg"/></svg>
+    <svg  x="254"   y="48" > <xi:include href="./symbols/ALT_R5.svg"/></svg>
+    <svg  x="321.5" y="48" > <xi:include href="./symbols/ALT_R5.svg"/></svg>
+    <svg  x="389"   y="48" > <xi:include href="./symbols/ALT_R5.svg"/></svg>
+
+    <svg  x="490.5" y="48" > <xi:include href="./symbols/LEFTCTRL_R5.svg"/></svg>
+    <svg  x="558"   y="48" > <xi:include href="./symbols/LEFTCTRL_R5.svg"/></svg>
+    <svg  x="625.5" y="48" > <xi:include href="./symbols/RIGHTCTRL_R5.svg"/></svg>
+    <svg  x="693"   y="48" > <xi:include href="./symbols/RIGHTCTRL_R5.svg"/></svg>
+
+    <svg  x="794"   y="48" > <xi:include href="./symbols/WIN_R5.svg"/></svg>
+    <svg  x="861.5" y="48" > <xi:include href="./symbols/WIN_R5.svg"/></svg>
+    <svg  x="929"   y="48" > <xi:include href="./symbols/WIN_R5.svg"/></svg>
+    <svg  x="996.5" y="48" > <xi:include href="./symbols/WIN_R5.svg"/></svg>
+
+    <svg x="1081.5" y="48" > <xi:include href="./special/tux.svg"/></svg>
+    <svg x="1149"   y="48" > <xi:include href="./special/tux.svg"/></svg>
+    <svg x="1216.5" y="48" > <xi:include href="./special/tux.svg"/></svg>
+    
+  </g>
+
+  <g
+     inkscape:groupmode="layer"
+     id="kinesis-overflow"
+     inkscape:label="Kinesis Overflow (Not printed)"
      style="display:none">
 
     <!-- No room for ENTER / SPACE, must use separate layout / custom key printing -->
@@ -3143,4 +3170,5 @@
     <svg  x="1504"    y="383" > <xi:include href="./symbols/SPACE_R44_Tall_Right.svg"/></svg>
 
   </g>
+
 </svg>

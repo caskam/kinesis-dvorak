@@ -43,4 +43,4 @@ xmllint --xinclude wasd-105.svg  > wasd-105-embedded.svg
 # inkscape >= 0.49
 #inkscape wasd-105-embedded.svg --export-text-to-path --export-plain-svg=wasd-105-embedded-paths.svg
 # inkscape < 0.49
-inkscape --with-gui --verb EditSelectAllInAllLayers --verb ObjectToPath --verb FileSave --verb FileQuit wasd-105-embedded.svg
+#inkscape --with-gui --verb EditSelectAllInAllLayers --verb ObjectToPath --verb FileSave --verb FileQuit wasd-105-embedded.svg
