@@ -42,3 +42,5 @@ for SVG in symbols/*.svg ; do
     PDF="`echo $SVG | sed 's/.svg/.pdf/'`"
     inkscape "$SVG" --export-pdf="$PDF"
 done
+
+xmllint --xinclude wasd-105.svg  > wasd-105-embedded.svg
