@@ -27,7 +27,8 @@ cat all.txt | while IFS=$'\t' read N A ; do
  inkscape --without-gui --verb EditSelectAll --verb ObjectToPath --verb FileSave --verb FileQuit symbols/$N.svg
 done
 
-cp special/superman.svg symbols/WIN_R5.svg 
+#cp special/superman.svg symbols/WIN_R5.svg
+cp special/superman-colour.svg symbols/WIN_R5.svg 
 
 # for SVG in symbols/*.svg ; do
 #     PDF="`echo $SVG | sed 's/.svg/.pdf/'`"
