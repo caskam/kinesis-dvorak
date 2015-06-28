@@ -12,11 +12,13 @@
    height="37"
    viewBox="0 0 25.6 29.600001"
    preserveAspectRatio="xMidYMid meet"
-   id="svg2"
+   id="svg12494"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="superman-inverted.svg">
+   sodipodi:docname="superman.svg">
+  <defs
+     id="defs12514" />
   <sodipodi:namedview
-     pagecolor="#000000"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
      objecttolerance="10"
@@ -24,25 +26,23 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="958"
+     inkscape:window-width="1918"
      inkscape:window-height="1078"
-     id="namedview20"
+     id="namedview12512"
      showgrid="false"
-     inkscape:zoom="8.9791338"
-     inkscape:cx="28.521362"
-     inkscape:cy="19.656515"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
-  <defs
-     id="defs22" />
+     fit-margin-bottom="0"
+     inkscape:zoom="13.648742"
+     inkscape:cx="37.460907"
+     inkscape:cy="14.542205"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12494" />
   <metadata
-     id="metadata4">
+     id="metadata12496">
 Created by potrace 1.11, written by Peter Selinger 2001-2013
 <rdf:RDF>
   <cc:Work
@@ -50,37 +50,36 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
     <dc:format>image/svg+xml</dc:format>
     <dc:type
        rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-    <dc:title />
   </cc:Work>
 </rdf:RDF>
 </metadata>
   <g
-     id="g6"
-     transform="matrix(0.00321122,0,0,-0.00321122,-0.46234645,25.801073)"
-     style="fill:#ffffff;stroke:none">
+     transform="matrix(0.00321122,0,0,-0.00321122,-0.46234635,26.002844)"
+     id="g12498"
+     style="fill:#000000;stroke:none">
     <path
-       id="path8"
        d="M 840,5438 C 451,5043 141,4721 144,4714 150,4699 4123,121 4130,121 c 7,0 3980,4578 3986,4593 3,7 -306,328 -696,724 l -701,712 -2589,0 -2589,0 -701,-712 z m 6446,-79 c 346,-352 628,-645 626,-650 -3,-11 -3775,-4358 -3782,-4358 -7,0 -3779,4347 -3782,4358 -2,5 280,298 626,650 l 629,641 2527,0 2527,0 629,-641 z"
+       id="path12500"
        inkscape:connector-curvature="0" />
     <path
-       id="path10"
        d="M 1404,5353 C 1212,5156 995,4934 922,4859 l -132,-136 317,-359 c 174,-197 319,-360 322,-361 3,-2 6,72 7,165 1,144 5,183 28,287 62,268 176,487 373,716 179,207 443,405 673,506 l 75,33 -416,0 -415,0 -350,-357 z"
+       id="path12502"
        inkscape:connector-curvature="0" />
     <path
-       id="path12"
        d="m 5436,5608 c 159,-162 257,-285 308,-385 9,-18 21,-33 27,-33 6,0 41,30 78,68 104,103 156,226 163,387 l 3,60 -340,3 -340,2 101,-102 z"
+       id="path12504"
        inkscape:connector-curvature="0" />
     <path
-       id="path14"
        d="m 3545,5650 c -395,-60 -695,-182 -871,-355 -125,-124 -169,-239 -147,-385 40,-256 266,-426 670,-504 238,-46 310,-49 1003,-51 673,-1 744,-4 1030,-45 616,-90 1012,-310 1205,-671 l 31,-58 502,571 503,571 -119,121 c -65,67 -265,272 -445,456 l -327,334 0,-482 0,-482 -575,0 -575,0 -5,28 c -42,206 -106,360 -204,489 -199,264 -530,418 -1001,468 -191,21 -523,18 -675,-5 z"
+       id="path12506"
        inkscape:connector-curvature="0" />
     <path
-       id="path16"
        d="m 1841,3534 c 15,-18 759,-865 784,-892 9,-10 18,0 44,52 49,101 143,166 288,201 100,24 333,17 448,-15 249,-67 471,-209 595,-379 l 45,-62 180,6 c 827,27 1318,150 1439,358 68,118 27,232 -111,305 -186,98 -518,150 -1188,187 -255,13 -415,20 -1060,45 -772,30 -1168,86 -1460,205 -19,8 -19,7 -4,-11 z"
+       id="path12508"
        inkscape:connector-curvature="0" />
     <path
-       id="path18"
        d="m 5125,2123 c -545,-127 -1250,-140 -1900,-33 -65,10 -120,18 -122,17 -2,-3 1023,-1167 1031,-1170 6,-2 1059,1194 1054,1197 -2,2 -30,-3 -63,-11 z"
+       id="path12510"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
