@@ -9,7 +9,7 @@ This project is to produce a custom layout (which deviates from the standard DVO
 
 This is a summary of what my layout looks like, in [DCS conventions](http://keycapsdirect.com/key-caps.php) (R1 is top row). Note that the [WASD conventions](http://support.wasdkeyboards.com/customer/portal/articles/1366948-keycap-compatibility) are different (R1 is bottom row).
 
-![Kinesis DVORAK layout](http://i752.photobucket.com/albums/xx162/fommil/kinesis-dvorak_zps7106bc5b.png)
+![Kinesis DVORAK layout](kinesis-dvorak.png)
 
 [Source](https://geekhack.org/index.php?PHPSESSID=ufjo1dfhkfh8jf5r6e8f80qqm1&topic=23446.msg878341#msg878341).
 
@@ -31,3 +31,7 @@ The following is a heuristic conversion table. `~` means there is not an exact e
 
 
 To use the script to generate your own layout, open it up and read the comments. You'll need to be familiar with UNIX shell scripting to make sense of it.
+
+And this is what it produces (but send the SVG file to your printer):
+
+![WASD Layout](wasd-105-embedded.png)

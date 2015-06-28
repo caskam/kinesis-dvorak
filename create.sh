@@ -6,9 +6,8 @@
 #
 # If all.txt has a full set using WASD naming conventions [1] (R4 is
 # top row) then this script will produce wasd-105-embedded.svg -- your
-# printing layout.
-#
-# TODO Convert to vector-only to remove fonts
+# printing layout. Note that printers tend to want black text, even
+# though they will print it as white on black.
 #
 # Additional adhoc keys will be needed to complete a Kinesis layout.
 # 105 [2] and 104 [3] layouts are available, I'm using 105 so that I
@@ -43,4 +42,7 @@ xmllint --xinclude wasd-105.svg  > wasd-105-embedded.svg
 # inkscape >= 0.49
 #inkscape wasd-105-embedded.svg --export-text-to-path --export-plain-svg=wasd-105-embedded-paths.svg
 # inkscape < 0.49
-#inkscape --with-gui --verb EditSelectAllInAllLayers --verb ObjectToPath --verb FileSave --verb FileQuit wasd-105-embedded.svg
+inkscape --with-gui --verb EditSelectAllInAllLayers --verb ObjectToPath --verb FileSave --verb FileQuit wasd-105-embedded.svg
+
+# for the README
+convert wasd-105-embedded.svg wasd-105-embedded.png
