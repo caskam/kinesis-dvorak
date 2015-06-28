@@ -45,4 +45,4 @@ xmllint --xinclude wasd-105.svg  > wasd-105-embedded.svg
 inkscape --with-gui --verb EditSelectAllInAllLayers --verb ObjectToPath --verb FileSave --verb FileQuit wasd-105-embedded.svg
 
 # for the README
-convert wasd-105-embedded.svg wasd-105-embedded.png
+convert -trim wasd-105-embedded.svg wasd-105-embedded.png
