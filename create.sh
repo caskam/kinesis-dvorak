@@ -36,3 +36,11 @@ cp special/superman-colour.svg symbols/WIN_R5.svg
 # done
 
 xmllint --xinclude wasd-105.svg  > wasd-105-embedded.svg
+
+# convert fonts to path
+
+# http://stackoverflow.com/a/7742345/1041691
+# inkscape >= 0.49
+#inkscape wasd-105-embedded.svg --export-text-to-path --export-plain-svg=wasd-105-embedded-paths.svg
+# inkscape < 0.49
+inkscape --with-gui --verb EditSelectAllInAllLayers --verb ObjectToPath --verb FileSave --verb FileQuit wasd-105-embedded.svg
