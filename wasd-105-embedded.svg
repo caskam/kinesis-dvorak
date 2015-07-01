@@ -5114,8 +5114,7 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
   <g
      inkscape:groupmode="layer"
      id="kinesis-overflow"
-     inkscape:label="Kinesis Overflow (Not printed)"
-     style="display:none">
+     inkscape:label="Kinesis Overflow (Not printed)">
     <!-- No room for ENTER / SPACE, must use separate layout / custom key printing -->
     <g
        transform="rotate(90)"
@@ -5131,13 +5130,14 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
            xml:base="symbols/ENTER_R4_Tall_Right.svg"
            id="svg1184"
            version="1.1">
-          <text
-             text-anchor="middle"
-             x="16"
-             y="28"
-             style="font-family: Inconsolata; font-size: 32"
-             fill="black"
-             id="text1186">↵</text>
+          <g
+             style="font-size:32px;text-anchor:middle;fill:#000000;font-family:Inconsolata"
+             id="text1186">
+            <path
+               d="m 10.8125,21.53125 11.28125,0 0,-6.984375 2.5625,0 0,9.546875 -13.84375,0 2.5,2.5 L 11.90625,28 7.375,23.453125 l 0,-1.28125 4.53125,-4.546875 1.40625,1.40625 -2.5,2.5"
+               style="font-size:32px;text-anchor:middle;fill:#000000;font-family:Inconsolata"
+               id="path4431" />
+          </g>
         </svg>
       </svg>
     </g>
@@ -5152,12 +5152,8 @@ Created by potrace 1.11, written by Peter Selinger 2001-2013
          xml:base="symbols/SPACE_R44_Tall_Right.svg"
          id="svg1190"
          version="1.1">
-        <text
-           text-anchor="middle"
-           x="16"
-           y="28"
-           style="font-family: Inconsolata; font-size: 32"
-           fill="black"
+        <g
+           style="font-size:32px;text-anchor:middle;fill:#000000;font-family:Inconsolata"
            id="text1192" />
       </svg>
     </svg>
