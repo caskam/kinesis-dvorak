@@ -36,6 +36,8 @@ And this is what it produces (but send the SVG file to your printer):
 
 ![WASD Layout](wasd-105-embedded.png)
 
+# Results
+
 ![Results](https://lh3.googleusercontent.com/LemiAGgT1WB5xvpko8HmYn5njc6-RxTF6yqwGuoj84IQ=w1877-h992-no)
 
 This first printing is missing the `-_`, `=+` and `⌦` caps, but luckily they can be temporarily replaced by the stock keycaps. The replacements work well for almost all the keys (including `⎈`), but the `⎇` / Super keys could do with an extra few mm to clear the keys beneath. If I was being *really* nitpicky, the blue keys on the centre row could benefit from being a little lower profile.
