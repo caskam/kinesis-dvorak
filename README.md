@@ -40,6 +40,8 @@ And this is what it produces (but send the SVG file to your printer):
 
 ![Results](https://lh3.googleusercontent.com/LemiAGgT1WB5xvpko8HmYn5njc6-RxTF6yqwGuoj84IQ=w1877-h992-no)
 
+(the observant reader will notice that the `I` key was installed upside down, fixed within 5 seconds of taking this picture :smile:)
+
 This first printing is missing the `-_`, `=+` and `⌦` caps, but luckily they can be temporarily replaced by the stock keycaps. The replacements work well for almost all the keys (including `⎈`), but the `⎇` / Super keys could do with an extra few mm to clear the keys beneath. If I was being *really* nitpicky, the blue keys on the centre row could benefit from being a little lower profile.
 
 All in all, a roaring success, treat yourself!
