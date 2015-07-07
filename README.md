@@ -1,7 +1,7 @@
 kinesis-dvorak
 ==============
 
-SVG keycap generator for a DVORAK [Kinesis Advantage](http://www.kinesis-ergo.com/shop/advantage-for-pc-mac/), suitable for custom printing by [Signature Plastic / Keycaps Direct](http://keycapsdirect.com/) or [WASD](http://www.wasdkeyboards.com/). Keep an eye on [PimpMyKeyboard](http://www.pimpmykeyboard.com/) for Kinesis support.
+SVG keycap generator for a DVORAK [Kinesis Advantage](http://www.kinesis-ergo.com/shop/advantage-for-pc-mac/), suitable for custom printing by [WASD](http://www.wasdkeyboards.com/).
 
 The Kinesis Advantage is easily the best keyboard on the market (until [keyboard.io](http://www.keyboard.io/) is available or somebody commercialises [ErgoDox](http://ergodox.org/)), but the DVORAK variant is awful: coming with mixed QWERTY/DVORAK keycaps that are impossible to use.
 
